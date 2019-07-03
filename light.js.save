@@ -1,0 +1,9 @@
+var args = process.argv
+var gpio = require("onoff").Gpio;
+var gpio4 = new gpio(4,"out");
+
+if(args[2].toUpperCase() === "ON"){
+var gpio = require("onoff").Gpio;
+var gpio4 = new gpio(4,"out");
+	
+}
