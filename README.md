@@ -1,5 +1,10 @@
 # gpioExamples
 
+requires npm packaged:
+sleep
+onoff
+readline
+
 Few examples of usage of a gpio pin through use of the onoff package.
 
 flash.js, takes 1 optional arg for number of millis. default if no arg provided is 500.
