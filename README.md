@@ -7,6 +7,8 @@ readline
 
 Few examples of usage of a gpio pin through use of the onoff package.
 
+test.js, will ask you for the amount of time in seconds gpio4 should be on
+
 flash.js, takes 1 optional arg for number of millis. default if no arg provided is 500.
 
 light.js, 1 required arg either "off" or "on". sets the pin (in this case pin4) to 1 or 0.
