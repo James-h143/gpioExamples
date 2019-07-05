@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/youWouldntScriptACar/gpioExamples.git"
   },
-  "author": "James Hennigan",
+  "author": "youWouldntScriptACar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/youWouldntScriptACar/gpioExamples/issues"
