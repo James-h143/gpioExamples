@@ -47,32 +47,5 @@ async function main(){
 		await wait(answer);
 		gpio4.writeSync(0);
 	}
-
-/*
-	var millis = 250
-	if(gpio4.readSync() !== 0){
-		gpio4.writeSync(0);
-	}
-	var state = 0
-	while(true){
-		switch(state){
-			case 0:
-				process.stdout.write("\u001b[2J\u001b[0;0H");
-				console.log("on");
-				gpio4.writeSync(1);
-				sleep.msleep(millis);
-				state = 1;
-			break;
-			case 1:
-				process.stdout.write("\u001b[2J\u001b[0;0H");
-				console.log("off");
-				gpio4.writeSync(0);
-				sleep.msleep(millis)
-				state = 0;
-			break;
-			default:
-				//do nothing
-		}
-	}*/
 }
 main();
