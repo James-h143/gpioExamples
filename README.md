@@ -1,6 +1,6 @@
 # gpioExamples
 
-requires npm packaged:
+requires npm packages:
 sleep
 onoff
 readline
